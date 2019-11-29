@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_home"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="10dp">
+            <HorizontalScrollView android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/image_scroll2"
+                            android:background="@drawable/border_scroll_view">
+                        </ImageView>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/image_scroll2"
+                            android:background="@drawable/border_scroll_view">
+                        </ImageView>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/image_scroll2"
+                            android:background="@drawable/border_scroll_view">
+                        </ImageView>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/image_scroll2"
+                            android:background="@drawable/border_scroll_view">
+                        </ImageView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ScrollView android:id="@+id/scroll_food_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </ScrollView>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
